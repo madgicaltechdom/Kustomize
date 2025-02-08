@@ -1,0 +1,12 @@
+resources:
+- ../../base
+
+namespace: dev
+
+patches:
+- path: replicas.yaml
+
+configMapGenerator:
+- name: mykustom-map
+  behavior: merge 
+  env: config.properties
