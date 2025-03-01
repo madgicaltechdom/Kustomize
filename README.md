@@ -14,7 +14,7 @@ Before proceeding, ensure you have the following installed:
 
 ## Practical Example: Using Kustomize in Kubernetes Deployment
 To demonstrate Kustomize in action, we structured the repository as follows:
-``
+```
 .
 ├── original
 │   ├── configmap.yaml
